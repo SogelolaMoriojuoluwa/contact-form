@@ -3,37 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="container">
-        
         <form class="form">
             <h1>Contact Us</h1>
             <div class="names">
                 <div class="name">
-                    <label for="fname">First Name</label>
+                    <label for="fname">First Name <span class="sign">*</span></label>
                     <input type="text" id="first-name" name="first-name">
                     <span class="firstname-error"></span>
                 </div>
                 <div class="name">
-                    <label for="fname">Last Name</label>
+                    <label for="fname">Last Name <span class="sign">*</span></label>
                     <input type="text" id="last-name"  name="last-name">
                     <span class="lastname-error"></span>
                 </div>
                
             </div>
             <div class="email">
-                <label for="email">Email Address</label>
+                <label for="email">Email Address <span class="sign">*</span></label>
                 <input type="email" id="email" name="email">
                 <span class="email-error"></span>
             </div>
            
 
             <div class="query">
-                 <label for="Query">Query Type</label>
+                 <label for="Query">Query Type <span class="sign">*</span></label>
             </div>
             <div class="option-box">
                 <div class="radio-box"> 
@@ -50,13 +51,13 @@
                 <span class="query-error"></span>
             </div>
             <div class="message">
-                <label for="message">Message</label>
+                <label for="message">Message <span class="sign">*</span></label>
                <textarea id="message" name="message"></textarea>
                <span class="message-error"></span>
             </div>
             <div class="checkbox">
                 <input type="checkbox" id="check">
-                <label for="checkbox">I consent to being contacted by the team</label><br>
+                <label for="checkbox">I consent to being contacted by the team <span class="sign">*</span></label><br>
                 <span class="consent-error"></span>
             </div>
         <button type="submit">Submit</button>  

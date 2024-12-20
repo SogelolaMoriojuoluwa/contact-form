@@ -9,9 +9,9 @@ body {
     margin: auto;
     padding: 10px;
     margin-top: 30px;
-   
-    
-    
+}
+h1 {
+    font-family: "Karla", serif;
 }
 .form {
     background-color: white;
@@ -19,6 +19,9 @@ body {
     width: 500px;
     align-content: center;
     border-radius: 10px;
+}
+.sign {
+    color: hsl(169, 82%, 27%);
 }
 .names {
     display: flex;
@@ -28,6 +31,8 @@ body {
 }
 .name> label{
     display: block;
+    font-family: "Karla", serif;
+    font-size: 16px;
 }
 .name> input {
     margin-top: 10px;
@@ -35,12 +40,15 @@ body {
     padding: 10px 5px;
     border-radius: 8px;
     border: 1px solid black;
+    font-family: "Karla", serif;
+    font-size: 16px;
 
 }
 .email > label{
     margin-top: 20px;
     display: block;
-    
+    font-family: "Karla", serif;
+    font-size: 16px;
 }
 .email > input {
     width: 100%;
@@ -48,6 +56,8 @@ body {
     border: 1px solid black;
     border-radius: 8px;
     margin-top: 10px;
+    font-family: "Karla", serif;
+    font-size: 16px;
 }
 .option-box {
     display: flex;
@@ -56,6 +66,8 @@ body {
 }
 .query {
     margin-top: 20px;
+    font-family: "Karla", serif;
+    font-size: 16px;
    
 }
 .radio-box {
@@ -64,9 +76,12 @@ body {
     width: 230px;
     border-radius:8px;
     transition: background-color 0.3s;
+   
 }
 .message {
     margin-top: 20px;
+    font-family: "Karla", serif;
+    font-size: 16px;
     
 }
 textarea {
@@ -76,12 +91,18 @@ textarea {
     margin-top: 10px;
     height: 100px;
     padding: 10px 5px;
+    font-family: "Karla", serif;
+    font-size: 16px;
 }
 .checkbox {
     margin-top: 20px;
 }
 .checkbox > input {
     margin: 0 10px;
+}
+.checkbox> label{
+    font-family: "Karla", serif;
+    font-size: 16px;
 }
 button{
     margin: 20px 0;
@@ -92,10 +113,16 @@ button{
     border-radius: 8px;
     background-color:  hsl(169, 82%, 27%);
     color:  hsl(0, 0%, 100%);
+    font-family: "Karla", serif;
+    font-size: 16px;
 }
 .radio-box.active {
     background-color: hsl(169, 82%, 27%); 
     border: 1px solid hsl(169, 82%, 27%);
+}
+.radio-box> label{
+    font-family: "Karla", serif;
+    font-size: 16px;
 }
 .name> input:hover{
     border: 1px solid hsl(169, 82%, 27%);
@@ -136,10 +163,10 @@ input[type="checkbox"]:checked{
 .success {
     display: none;
     background-color: hsl(179, 100%, 13%);
-    width: 370px;
-    height: 85px;
+    /* width: 400px;
+    height: 90px; */
     border-radius: 7px;
-    padding: 15px;
+    padding: 20px;
     position: fixed;
     top: 100px;
     left: 50%;
@@ -147,7 +174,8 @@ input[type="checkbox"]:checked{
     color:hsl(0, 0%, 100%);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1000;
-
+    font-family: "Karla", serif;
+    font-size: 16px;
 }
 
 
