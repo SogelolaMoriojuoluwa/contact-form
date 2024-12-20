@@ -1,0 +1,150 @@
+body {
+    background: hsl(148, 38%, 91%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    padding: 10px;
+   
+    
+    
+}
+.form {
+    background-color: white;
+    padding: 10px 20px;
+    width: 480px;
+    align-content: center;
+    border-radius: 10px;
+}
+.names {
+    display: flex;
+    margin: 10px 0;
+    gap: 10px;
+  
+}
+
+.name> input {
+    margin-top: 10px;
+    width: 208px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid black;
+
+}
+.email > label{
+    margin-top: 20px;
+    display: block;
+    
+}
+.email > input {
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.option-box {
+    display: flex;
+    margin: 10px 0;
+    gap: 20px;
+}
+.query {
+    margin-top: 20px;
+   
+}
+.radio-box {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    width: 230px;
+    border-radius:8px;
+    transition: background-color 0.3s;
+}
+.message {
+    margin-top: 20px;
+    
+}
+textarea {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 100px;
+}
+.checkbox {
+    margin-top: 20px;
+}
+.checkbox > input {
+    margin: 0 10px;
+}
+button{
+    margin: 20px 0;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color:  hsl(169, 82%, 27%);
+    color:  hsl(0, 0%, 100%);
+}
+.radio-box.active {
+    background-color: hsl(169, 82%, 27%); 
+    border: 1px solid hsl(169, 82%, 27%);
+}
+.name> input:hover{
+    border: 1px solid hsl(169, 82%, 27%);
+    cursor: pointer;
+}
+.email> input:hover{
+    border: 1px solid hsl(169, 82%, 27%);
+    cursor: pointer;
+}
+.radio-box> label:hover,
+.radio-box> input:hover {
+    cursor: pointer;
+}
+.checkbox >input:hover{
+    cursor: pointer;
+}
+button:hover {
+    cursor: pointer;
+    background-color: hsl(179, 100%, 13%);
+}
+input[type="radio"]:checked {
+    accent-color:hsl(169, 82%, 27%);
+}
+textarea:hover{
+    border: 1px solid hsl(169, 82%, 27%);
+    cursor: pointer;
+}
+input[type="checkbox"]:checked{
+    accent-color:hsl(169, 82%, 27%);
+}
+.checkbox > input{
+    background-color: hsl(169, 82%, 27%);
+    cursor: pointer;
+}
+.checkbox > label{
+    cursor: pointer;
+}
+.success {
+    display: none;
+    background-color: hsl(179, 100%, 13%);
+    width: 370px;
+    height: 85px;
+    border-radius: 7px;
+    padding: 15px;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:hsl(0, 0%, 100%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+
+}
+
+
