@@ -6,31 +6,33 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: auto;
     padding: 10px;
+    margin-top: 30px;
    
     
     
 }
 .form {
     background-color: white;
-    padding: 10px 20px;
-    width: 480px;
+    padding: 10px 30px;
+    width: 500px;
     align-content: center;
     border-radius: 10px;
 }
 .names {
     display: flex;
-    margin: 10px 0;
-    gap: 10px;
+    margin: 7px 0;
+    gap: 20px;
   
 }
-
+.name> label{
+    display: block;
+}
 .name> input {
     margin-top: 10px;
-    width: 208px;
-    padding: 10px 12px;
+    width: 230px;
+    padding: 10px 5px;
     border-radius: 8px;
     border: 1px solid black;
 
@@ -42,7 +44,7 @@ body {
 }
 .email > input {
     width: 100%;
-    padding: 10px 0;
+    padding: 10px 5px;
     border: 1px solid black;
     border-radius: 8px;
     margin-top: 10px;
@@ -58,7 +60,7 @@ body {
 }
 .radio-box {
     border: 1px solid #ccc;
-    padding: 10px 20px;
+    padding: 10px 5px;
     width: 230px;
     border-radius:8px;
     transition: background-color 0.3s;
@@ -73,6 +75,7 @@ textarea {
     border-radius: 8px;
     margin-top: 10px;
     height: 100px;
+    padding: 10px 5px;
 }
 .checkbox {
     margin-top: 20px;
@@ -146,5 +149,32 @@ input[type="checkbox"]:checked{
     z-index: 1000;
 
 }
+
+
+@media (max-width: 608px) {
+    .form {
+        width: 100%;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .names {
+        flex-direction: column;
+    }
+
+    .name > input {
+        width: 100%;
+    }
+
+    .option-box{
+        flex-direction: column;
+    }
+
+    .radio-box {
+        width: 100%;
+        
+    }
+}
+
 
 
